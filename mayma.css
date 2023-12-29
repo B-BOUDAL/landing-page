@@ -1,0 +1,121 @@
+header{
+    display: flex;
+    flex-direction: row;
+    top:100px;
+    justify-content: space-around;
+    
+    
+}
+.fixed{
+    background-color:#ede8ed;
+    font-size:20px;
+    color:white;
+    position:relative;
+    left:25%;
+    top: 0px;
+    position: fixed;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.fixed:visited{
+    text-decoration: none;
+    color:white;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+img{
+    height:225px;
+    width: 225px;
+    
+}
+div{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 15px;
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 15px;
+    justify-content: center;
+}
+footer{
+    background-color:#e3b5e3;
+    justify-content: center;
+}
+dl{   display: grid;
+    grid-template-rows: 33%;
+    grid-row-gap: 15px;
+ grid-template-columns: 30% 30% 30% ;
+    column-gap: 15px;}
+span{
+    border:2px solid;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    border-radius: 20px;
+    color: #f0ebeb;
+}
+#login{
+    border: 2px solid;
+    justify-content: flex-start;
+    text-align: left;
+    border-radius: 20px;
+      color:#897979;
+    height: 600px;
+    width: 180px;
+    padding:5px;
+    position: absolute;
+    left:0px;
+    top:460px;
+    background-color: #f8f8f8;
+}
+.insta{
+    height: 40px;
+    width: 40px;
+}
+#social{
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 33%;
+    grid-row-gap: 15px;
+ grid-template-columns: 20% 20% 20% 20% ;
+    column-gap: 15px;
+   
+}
+/*/main{ background-image: url(https://media1.giphy.com/media/VNVOC74pIZQbcax4Ey/giphy.gif?cid=ecf05e471xmzinayfz6qrdx29070bhu0934nptq81kd80pbe&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;*/
+    
+
+}
+#paiement{
+    justify-content:center;
+    display: grid;
+    grid-template-rows: 33%;
+    grid-row-gap: 15px;
+ grid-template-columns: 30% 30% 30% ;
+    column-gap: 15px;
+ 
+}
+#pay{width: 80px;
+height:80px; }
+iframe{
+    height: 400px;
+    width: 400px;
+}
+@media screen and (max-width:600px){
+    #login{
+    display: none;
+        
+    }
+    
+ 
